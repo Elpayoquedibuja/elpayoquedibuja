@@ -1,0 +1,83 @@
+body {
+  background-color: deepskyblue;
+  font-size: 16px;
+}
+
+header {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  color: #1E86F7;
+  padding: 1rem;
+  position: relative;
+}
+
+#header_bg-color {
+  background-color: yellow;
+  width: 100%;
+}
+
+header h1, header h4 {
+  font-weight: normal;
+}
+
+header h1 {
+  margin-bottom: 0;
+}
+
+header h4 {
+  margin-top: 0;
+}
+
+header h2 {
+  font-size: 1rem;
+  width: 70%;
+  margin-left: 4%;
+  color: #1E86F7;
+  font-weight: normal;
+}
+
+header p {
+  font-size: 2rem;
+  font-family: 'Abel', sans-serif;
+  color: #424242;
+  font-size: 28px;
+  padding: 0 4%;
+  font-style: italic;
+  font-weight: lighter;
+  width: 80%;
+}
+
+#competencias {
+  height: auto;
+}
+
+/* WARNING: MEDIAQUERY */
+/* WARNING: MEDIAQUERY */
+/* WARNING: MEDIAQUERY */
+/* WARNING: MEDIAQUERY */
+@media only screen and (min-width: 768px) {
+  header h1, header h4 {
+    display: inline;
+  }
+
+  header {
+    padding-top: 100px;
+  }
+
+  header p {
+    border-left: 1px dotted #999;
+    font-size: 40px;
+    width: 100%;
+  }
+
+  header h2 {
+    width: 40%;
+    text-align: right;
+    position: absolute;
+    right: 1rem;
+    top: 0;
+  }
+}
